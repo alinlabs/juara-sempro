@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "aldi",
+    "name": "Aldi",
+    "topic": "Pengaruh Motivasi Kerja (X1) dan Lingkungan Kerja (X2) thdp Kinerja Karyawan (Y) di Kebon Alpukat Caffe",
+    "analisis": [
+      {
+        "bab": "BAB I: PENDAHULUAN",
+        "kelebihan": "Konteks lokal (Purwakarta) dan alasan pemilihan objek (SME/UMKM F&B pasca-pandemi dengan pekerja Gen-Z) sangat jelas dan menarik.",
+        "kelemahan": "Fenomena masalah (lambatnya respons, kurang koordinasi) hanya didasarkan pada \"observasi pra-penelitian\" tanpa dukungan data angka (misal: data keluhan pelanggan, persentase keterlambatan pesanan, atau rekap absensi).",
+        "potensiKritik": "Dosen akan mengejar validitas fenomena. \"Dari mana Anda tahu karyawan lambat? Ada datanya atau sekadar asumsi?\"",
+        "solusiKritik": "Siapkan data dukung sementara (misal: rata-rata waktu tunggu pesanan, jumlah komplain bulanan) dan sampaikan bahwa data tersebut didapat dari wawancara awal dengan manajer, meskipun belum terdokumentasi rapi di laporan perusahaan."
+      },
+      {
+        "bab": "BAB II: TINJAUAN PUSTAKA",
+        "kelebihan": "Pemetaan peneliti terdahulu (30 jurnal) sangat komprehensif. Ini modal luar biasa untuk menjawab research gap.",
+        "kelemahan": "Di kerangka pemikiran (hal 22) Anda menyebut Teori Ekspektansi Vroom dan Teori Dua Faktor Herzberg. NAMUN, di definisi operasional (hal 28), Anda menggunakan indikator Teori Maslow (Fisiologis, Aman, Sosial, dll).",
+        "potensiKritik": "\"Coba Saudara jelaskan, teori motivasi mana yang sebenarnya Saudara pakai? Kenapa di bab 2 bahas Herzberg, tapi kuesionernya pakai Maslow?\"",
+        "solusiKritik": "Segera revisi Bab 2. Hapus pembahasan Vroom dan Herzberg, lalu fokuskan landasan teori hanya pada Hierarki Kebutuhan Maslow agar sinkron dengan kuesioner Anda."
+      },
+      {
+        "bab": "BAB III: METODE PENELITIAN",
+        "kelebihan": "Penggunaan Teknik Sampling Jenuh (Sensus) untuk 45 karyawan sudah sangat tepat dan memiliki justifikasi yang kuat.",
+        "kelemahan": "Pada hal 28, Anda menyebut data ordinal ditransformasi pakai MSI (Method of Successive Interval) \"atau diasumsikan sebagai interval\". Ini kalimat ragu-ragu.",
+        "potensiKritik": "\"Jadi Anda pakai MSI atau tidak? Regresi Linier Berganda itu syarat mutlaknya datanya rasio/interval. Skala Likert itu ordinal. Bagaimana cara Anda mengolahnya?\"",
+        "solusiKritik": "Tegaskan bahwa Anda MENGGUNAKAN metode MSI untuk mentransformasi data ordinal (Likert) menjadi interval sebelum melakukan uji regresi, agar memenuhi syarat statistik parametrik."
+      }
+    ],
+    "titikRawan": [
+      {
+        "title": "Hipotesis Salah Jurusan (Hal 24)",
+        "attack": "\"Kenapa format hipotesis Anda sepertinya hasil copy-paste dari penelitian lain dan tidak nyambung dengan rumusan masalah?\"",
+        "defense": "Ganti dengan: H1: Terdapat pengaruh positif Motivasi Kerja terhadap Kinerja. H2: Terdapat pengaruh positif Lingkungan Kerja terhadap Kinerja. H3: Terdapat pengaruh simultan... dst."
+      },
+      {
+        "title": "Teori Motivasi Belang-belang",
+        "attack": "\"Di Bab 2 Anda membahas teori Vroom dan Herzberg, tapi kenapa di kuesioner Anda malah menggunakan indikator dari teori Maslow?\"",
+        "defense": "Hapus Vroom & Herzberg di Bab 2. Fokus jelaskan Teori Hirarki Kebutuhan Maslow di Bab 2 agar sinkron dengan Bab 3 (Hal 28)."
+      },
+      {
+        "title": "Absennya Data Pra-Survey",
+        "attack": "\"Dari mana Anda bisa menyimpulkan ada masalah kinerja dan motivasi jika tidak ada data kuantitatif awal yang menunjukkannya?\"",
+        "defense": "\"Benar Bapak/Ibu, data tertulis dari manajemen belum rapi. Namun saya melakukan wawancara awal dengan Manajer Operasional dan mencatat rata-rata 5 komplain pelanggan per minggu terkait kecepatan layanan.\""
+      },
+      {
+        "title": "Ordinal ke Interval",
+        "attack": "\"Skala Likert itu ordinal, sedangkan Regresi Linier mensyaratkan data interval. Bagaimana Anda mempertanggungjawabkan pengolahan data ini?\"",
+        "defense": "\"Saya menggunakan Metode MSI (Method of Successive Interval) di Excel/SPSS sebelum uji asumsi klasik, karena Regresi Linier mensyaratkan data berskala interval.\""
+      }
+    ],
+    "penguji1": {
+      "title": "Penguji 1",
+      "subtitle": "BAB I - Fenomena & Masalah",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa alasan utama Anda meneliti di Kebon Alpukat Cafe?",
+          "answer": "\"Karena kafe ini punya layout outdoor yang luas, menuntut stamina dan koordinasi tinggi. Namun observasi awal saya menemukan ada gap antara tuntutan tersebut dengan realita lambatnya respons karyawan, yang mengindikasikan masalah motivasi dan lingkungan fisik.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa bedanya penelitian Anda dengan 30 penelitian terdahulu?",
+          "answer": "\"Mayoritas studi terdahulu dilakukan di korporasi besar atau sektor manufaktur. Penelitian saya berfokus pada UMKM F&B pasca-pandemi dengan mayoritas pekerja Gen-Z, di mana dinamika motivasi (bukan sekadar uang) dan layout kafe sangat spesifik.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Karyawan kurang responsif itu wajar saat jam sibuk. Kenapa Anda menyalahkan Motivasi dan Lingkungan?",
+          "answer": "\"Betul Bapak/Ibu, beban kerja saat jam sibuk berpengaruh. Namun, jika motivasi intrinsiknya kuat dan lingkungan fisiknya (tata letak) ergonomis, karyawan akan tetap taktis. Kelambatan yang terus terjadi di luar jam sibuk membuktikan akar masalahnya ada pada variabel yang saya teliti.\""
+        }
+      ]
+    },
+    "penguji2": {
+      "title": "Penguji 2",
+      "subtitle": "BAB II - Teori & Konsep",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Coba jelaskan apa itu Motivasi dan Lingkungan Kerja pakai bahasa Anda sendiri!",
+          "answer": "\"Motivasi adalah dorongan dari dalam dan luar yang membuat karyawan mau bekerja keras. Sedangkan Lingkungan Kerja adalah segala hal fisik (AC, tata ruang) dan non-fisik (hubungan dengan teman/bos) yang ada di sekitar mereka saat bekerja.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Indikator Kinerja Karyawan Anda pakai teori siapa? Kenapa pilih itu?",
+          "answer": "\"Saya menggunakan Mangkunegara, yang mengukur Kualitas, Kuantitas, Waktu, dan Kemandirian. Ini sangat pas untuk F&B, di mana ketepatan waktu saji (Waktu) dan rasa makanan/layanan (Kualitas) adalah tolok ukur utama.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Menurut Anda, mana yang lebih dulu harus diperbaiki manajemen: Motivasi atau Lingkungan Kerja?",
+          "answer": "\"Secara hierarki, Lingkungan Kerja fisik dan non-fisik (Teori Hygiene) harus kondusif lebih dulu agar karyawan tidak stres. Setelah lingkungan aman dan nyaman, baru manajemen bisa memompa Motivasi (kebutuhan aktualisasi) untuk mencapai Kinerja optimal.\""
+        }
+      ]
+    },
+    "penguji3": {
+      "title": "Penguji 3",
+      "subtitle": "BAB III - Metodologi & Statistik",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Kenapa Anda menggunakan Sensus (Sampling Jenuh)?",
+          "answer": "\"Karena populasi karyawan hanya 45 orang. Menurut Sugiyono, jika populasi di bawah 100, lebih baik diambil semua agar meminimalisir standard error dan hasil regresi lebih mewakili kondisi sebenarnya.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa gunanya Uji Asumsi Klasik dalam penelitian Anda?",
+          "answer": "\"Sebagai syarat mutlak sebelum Uji Regresi. Agar model regresi yang dihasilkan bersifat BLUE (Best Linear Unbiased Estimator)—artinya datanya normal, tidak ada korelasi antar variabel X (Multikolinearitas), dan variansnya stabil (Heteroskedastisitas).\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Jika nanti hasil Uji F signifikan, tapi Uji t untuk Motivasi ternyata TIDAK signifikan. Apa kesimpulan Anda?",
+          "answer": "\"Artinya secara bersama-sama kedua variabel memengaruhi kinerja. Namun secara parsial, motivasi belum cukup kuat memengaruhi kinerja. Bisa jadi di kafe tersebut, karyawan bekerja murni karena lingkungan atau sistem gajinya, bukan karena motivasi internal. Saya akan tulis apa adanya sesuai data empiris.\""
+        }
+      ]
+    },
+    "ringkasan": {
+      "judul": "Pengaruh Motivasi Kerja (X1) dan Lingkungan Kerja (X2) thdp Kinerja Karyawan (Y) di Kebon Alpukat Caffe.",
+      "objek": "45 Karyawan (Sensus).",
+      "definisiX1": "Daya penggerak karyawan (Maslow: Fisik, Aman, Sosial, Penghargaan, Aktualisasi).",
+      "definisiX2": "Kondisi fisik (Suhu, layout) & Non-fisik (Rekan kerja, bos). (Sedarmayanti).",
+      "definisiY": "Hasil kerja secara kualitas & kuantitas (Mangkunegara).",
+      "metodeAnalisis": "Uji Instrumen (Validitas Pearson, Reliabilitas Cronbach Alpha) ➔ Uji Asumsi Klasik (Normalitas, Multikol, Heteros) ➔ Regresi Linier Berganda ➔ Uji Hipotesis (t parsial, F simultan, R2 determinasi)."
+    },
+    "simulasi": [
+      {
+        "question": "\"Judul Anda ini sangat pasaran. Apa hebatnya penelitian ini?\"",
+        "answer": "\"Topiknya memang fundamental, Bapak/Ibu. Namun kebaruannya ada pada setting pasca-pandemi dan dominasi Gen-Z di industri F&B lokal, yang memiliki ekspektasi berbeda terhadap lingkungan kerja dibanding generasi sebelumnya. Saya tidak mencari teori baru, tapi membuktikan teori yang ada di lanskap demografi yang baru.\""
+      },
+      {
+        "question": "\"Bagaimana Anda memastikan responden (karyawan) jujur isi kuesioner? Jangan-jangan mereka takut sama bosnya?\"",
+        "answer": "\"Kuesioner bersifat anonim (tanpa nama). Saya juga akan menyebarkannya langsung di luar jam sibuk, tanpa kehadiran manajer, dan memberikan garansi tertulis bahwa data ini murni untuk akademis.\""
+      },
+      {
+        "question": "\"Kenapa Anda pakai Skala Likert 1-5? Kenapa tidak 1-4 untuk menghindari jawaban Netral/Ragu-ragu?\"",
+        "answer": "\"Saya menyediakan angka 3 (Netral) karena realitanya, ada kondisi di mana persepsi karyawan memang berada di tengah-tengah (tidak puas tapi juga tidak kecewa). Memaksa mereka memilih (1-4) justru bisa mendistorsi data.\""
+      },
+      {
+        "question": "\"Apakah gaji masuk ke Motivasi atau Lingkungan Kerja?\"",
+        "answer": "\"Gaji masuk ke Motivasi Ekstrinsik (Kebutuhan Fisiologis Maslow) karena merupakan daya dorong material dari luar diri karyawan.\""
+      },
+      {
+        "question": "\"Coba jelaskan rumus Regresi Anda: Y = a + b1X1 + b2X2 + e. Apa itu 'e'?\"",
+        "answer": "\"'e' adalah error term atau faktor-faktor lain di luar Motivasi dan Lingkungan Kerja yang memengaruhi Kinerja, tapi tidak saya teliti dalam skripsi ini. Misalnya variabel kompensasi atau kepemimpinan.\" (Catatan: Tambahkan rumus ini di hal 32 karena di PDF Anda kosong)."
+      }
+    ],
+    "strategi": [
+      {
+        "title": "Jika Dosen Mengkritik Tajam/Menyalahkan",
+        "content": [
+          "Jangan memotong pembicaraan. Dengarkan sampai selesai.",
+          "Kalimat Aman: \"Terima kasih atas koreksi dan masukannya Bapak/Ibu. Titik pandang tersebut sangat mencerahkan dan akan saya jadikan catatan utama untuk revisi perbaikan proposal saya ke depannya.\""
+        ]
+      },
+      {
+        "title": "Jika Anda Lupa/Blank Sama Sekali",
+        "content": [
+          "Jangan mengarang bebas. Dosen tahu jika Anda berbohong.",
+          "Kalimat Aman: \"Mohon maaf Bapak/Ibu, terkait detail statistik/teori tersebut saya sedikit lupa saat ini. Namun di proposal, saya merujuk pada buku (Sebut nama ahli, misal: Sugiyono/Mangkunegara). Akan segera saya pelajari kembali.\""
+        ]
+      },
+      {
+        "title": "Gestur Tubuh",
+        "content": [
+          "Bawa pulpen dan buku catatan. CATAT setiap omongan dosen. Ini menunjukkan Anda menghargai mereka (dan membuat mereka merasa dihormati).",
+          "Tatap mata dosen yang sedang bertanya, jangan menunduk terus ke naskah."
+        ]
+      },
+      {
+        "title": "Taktik Menunda Waktu Berpikir",
+        "content": [
+          "Jika ditanya pertanyaan susah, minum sedikit air (jika diizinkan), atau ulangi pertanyaannya. \"Baik Bapak/Ibu, terkait pertanyaan mengenai alasan saya menggunakan sampling jenuh...\" (Ini memberi otak Anda 3-5 detik untuk menyusun kalimat)."
+        ]
+      }
+    ],
+    "tugas": [
+      "Hapus/Revisi bagian 2.7 Hipotesis.",
+      "Pastikan Anda mantap menggunakan teori Maslow untuk motivasi, dan buang teori Vroom/Herzberg agar tidak jadi bumerang.",
+      "Berlatihlah bicara depan kaca menjawab kisi-kisi di atas."
+    ],
+    "presentasi": [
+      {
+        "slide": "Slide 1",
+        "title": "Judul Penelitian",
+        "points": [
+          "Pengaruh Motivasi Kerja (X1) dan Lingkungan Kerja (X2) thdp Kinerja Karyawan (Y) di Kebon Alpukat Caffe.",
+          "Oleh: Aldi",
+          "Objek Penelitian: 45 Karyawan (Sensus)."
+        ]
+      },
+      {
+        "slide": "Slide 2",
+        "title": "Latar Belakang & Fenomena",
+        "points": [
+          "Fenomena utama yang terjadi di lapangan:",
+          "Konteks lokal (Purwakarta) dan alasan pemilihan objek (SME/UMKM F&B pasca-pandemi dengan pekerja Gen-Z) sangat jelas dan menarik.",
+          "Alasan pemilihan objek penelitian ini sangat penting dan relevan dengan kondisi saat ini."
+        ]
+      },
+      {
+        "slide": "Slide 3",
+        "title": "Rumusan Masalah & Tujuan",
+        "points": [
+          "Rumusan Masalah:",
+          "Bagaimana pengaruh variabel independen terhadap variabel dependen pada 45 Karyawan (Sensus).?",
+          "Tujuan Penelitian:",
+          "Untuk mengetahui dan menganalisis pengaruh tersebut secara empiris."
+        ]
+      },
+      {
+        "slide": "Slide 4",
+        "title": "Tinjauan Pustaka (Grand Theory)",
+        "points": [
+          "Definisi X1: Daya penggerak karyawan (Maslow: Fisik, Aman, Sosial, Penghargaan, Aktualisasi).",
+          "Definisi X2: Kondisi fisik (Suhu, layout) & Non-fisik (Rekan kerja, bos). (Sedarmayanti).",
+          "Definisi Y: Hasil kerja secara kualitas & kuantitas (Mangkunegara)."
+        ]
+      },
+      {
+        "slide": "Slide 5",
+        "title": "Metodologi Penelitian",
+        "points": [
+          "Metode Analisis: Uji Instrumen (Validitas Pearson, Reliabilitas Cronbach Alpha) ➔ Uji Asumsi Klasik (Normalitas, Multikol, Heteros) ➔ Regresi Linier Berganda ➔ Uji Hipotesis (t parsial, F simultan, R2 determinasi).",
+          "Populasi & Sampel: 45 Karyawan (Sensus).",
+          "Kelebihan Metode: Penggunaan Teknik Sampling Jenuh (Sensus) untuk 45 karyawan sudah sangat tepat dan memiliki justifikasi yang kuat."
+        ]
+      },
+      {
+        "slide": "Slide 6",
+        "title": "Kesimpulan & Penutup",
+        "points": [
+          "Penelitian ini diharapkan dapat memberikan kontribusi teoritis dan praktis.",
+          "Terima kasih atas perhatian Bapak/Ibu Dosen Penguji.",
+          "Mohon masukan dan arahannya."
+        ]
+      }
+    ],
+    "kamus": [
+      {
+        "term": "Hipotesis",
+        "definition": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "term": "Populasi",
+        "definition": "Keseluruhan subjek penelitian yang memiliki karakteristik tertentu."
+      },
+      {
+        "term": "Sampel",
+        "definition": "Sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "term": "Regresi Linier",
+        "definition": "Metode statistik untuk memodelkan hubungan antara variabel dependen dan independen."
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "f1",
+        "front": "Apa itu Hipotesis?",
+        "back": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "id": "f2",
+        "front": "Apa bedanya Populasi dan Sampel?",
+        "back": "Populasi adalah keseluruhan subjek, sedangkan Sampel adalah sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "id": "f3",
+        "front": "Mengapa menggunakan Regresi Linier?",
+        "back": "Untuk mengetahui seberapa besar pengaruh variabel independen terhadap variabel dependen."
+      }
+    ]
+  },
+  {
+    "id": "ridwan",
+    "name": "Ridwan",
+    "topic": "Pengaruh Kompetensi Konten Digital (X1) & Komunikasi Digital (X2) thdp Kesiapan Kerja (Y) Ekskul Jurnalistik SMKN 1 Plered",
+    "analisis": [
+      {
+        "bab": "BAB I: PENDAHULUAN",
+        "kelebihan": "Alur latar belakang (piramida terbalik) dari era society 5.0, digitalisasi media, hingga ke SMK sudah sangat baik. Research gap dari 30 jurnal terdahulu (di Bab 2) sangat kuat.",
+        "kelemahan": "Fenomena masalah spesifik di SMKN 1 Plered hanya berdasarkan \"observasi awal\" (Hal 2-3). Tidak ada data kuantitatif pra-riset. (Misal: Berapa % siswa yang hasil kontennya buruk? Adakah data keluhan pembina ekskul?).",
+        "potensiKritik": "\"Dari mana Saudara menyimpulkan bahwa komunikasi digital mereka buruk? Hanya asumsi atau ada buktinya?\"",
+        "solusiKritik": "Siapkan argumen bahwa Anda telah mewawancarai pembina ekskul dan mendapatkan keluhan spesifik (misal: sering terjadi miskomunikasi saat liputan, atau konten telat tayang karena alur kerja digital yang berantakan)."
+      },
+      {
+        "bab": "BAB II: TINJAUAN PUSTAKA",
+        "kelebihan": "Menggunakan Grand Theory Manajemen SDM dan Human Capital Theory. Referensi sangat kaya (30 jurnal) dan indikator variabel sangat jelas (DigComp 2.2).",
+        "kelemahan": "Tidak ada Gambar Kerangka Pemikiran! Di halaman 31-32 Anda hanya menarasikan kerangka pemikiran, tapi visualisasinya (kotak dan panah) tidak ada. Ini wajib dalam skripsi kuantitatif.",
+        "potensiKritik": "\"Coba gambarkan kerangka pemikiran Anda di papan tulis! Kenapa di proposal tidak ada gambarnya?\"",
+        "solusiKritik": "Segera buat bagan kerangka pemikiran (Kotak X1, Kotak X2, panah menuju Kotak Y) dan masukkan ke dalam revisi proposal Anda. Bawa print-out bagan tersebut saat sidang."
+      },
+      {
+        "bab": "BAB III: METODE PENELITIAN",
+        "kelebihan": "Pemilihan metode Sensus (Total Sampling) karena populasi hanya 30 orang sudah tepat menurut kaidah statistik dasar.",
+        "kelemahan": "Skala Likert (Ordinal) tidak dijelaskan apakah akan ditransformasi ke data Interval (menggunakan MSI - Method of Successive Interval) sebelum diuji Regresi Linier Berganda. Syarat Regresi adalah datanya rasio/interval.",
+        "potensiKritik": "\"Regresi itu butuh data parametrik (interval/rasio). Kuesioner Anda Likert (ordinal). Bagaimana cara Anda mengolahnya agar tidak menyalahi aturan statistik?\"",
+        "solusiKritik": "Tambahkan penjelasan di Bab 3 bahwa Anda akan menggunakan Method of Successive Interval (MSI) untuk mengubah data ordinal dari kuesioner Likert menjadi data interval sebelum uji regresi."
+      }
+    ],
+    "titikRawan": [
+      {
+        "title": "Mengukur \"Kesiapan Kerja\" pada Kelas X & XI",
+        "attack": "\"Bagaimana mungkin anak kelas X dan XI yang baru masuk SMK sudah diukur 'Kesiapan Kerja'-nya padahal mereka belum magang?\"",
+        "defense": "\"Bapak/Ibu, kesiapan kerja (Work Readiness) yang saya ukur bukan 'siap lulus hari ini', melainkan berdasar definisi Tentama (2020) yaitu kesiapan mental, adaptabilitas digital, dan pemahaman etika kerja yang dibangun sejak dini melalui ekskul. Ini adalah early indicator (indikator awal).\""
+      },
+      {
+        "title": "Kenapa Ekstrakurikuler? Bukan Jurusan Vokasi Resmi?",
+        "attack": "\"Ekskul itu sifatnya sukarela dan hobi. Kenapa Anda mengukurnya dengan kacamata Manajemen SDM yang biasanya untuk karyawan formal?\"",
+        "defense": "\"Karena gap kompetensi terbesar saat ini justru sering ditutupi oleh informal learning seperti ekskul, Bapak/Ibu. Ekskul Jurnalistik mensimulasikan project-based learning layaknya mini-company (redaksi), yang sangat relevan dengan Competence-Based Management.\""
+      },
+      {
+        "title": "Sampel N = 30",
+        "attack": "\"Sampel Anda hanya 30 orang. Jika ada data yang outlier, data Anda tidak akan normal. Apakah Anda yakin hasil regresinya valid?\"",
+        "defense": "\"Benar, 30 adalah sampel minimal (Roscoe). Karena ini sampel jenuh, saya akan sangat ketat saat menyebarkan kuesioner, mendampingi responden agar tidak ada missing data atau jawaban asal, sehingga asumsi normalitas bisa terpenuhi.\""
+      },
+      {
+        "title": "Absennya Uji MSI / Transformasi Data",
+        "attack": "\"Anda menggunakan skala Likert tapi langsung diuji Regresi Linier tanpa transformasi data. Ini menyalahi aturan statistik!\"",
+        "defense": "Tambahkan 1 paragraf di Bab 3 (setelah penjelasan Likert) bahwa Anda akan menggunakan MSI untuk mentransformasi data ordinal menjadi interval."
+      }
+    ],
+    "penguji1": {
+      "title": "Penguji 1",
+      "subtitle": "BAB I - Fenomena, Masalah, Urgensi",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Mengapa Anda memilih SMKN 1 Plered dan Ekskul Jurnalistik?",
+          "answer": "\"Berdasarkan pra-riset, ekskul ini dituntut memproduksi informasi layaknya media profesional. Namun, ada gap besar: siswa minat tinggi, tapi secara teknis konten dan etika komunikasi digital (kolaborasi virtual) masih kurang, yang mana ini adalah miniatur dunia kerja nyata.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa Novelty (kebaruan) penelitian Anda dibanding puluhan penelitian sebelumnya?",
+          "answer": "\"Mayoritas riset terdahulu membahas literasi digital secara umum. Riset saya memecahnya menjadi kompetensi teknis (Konten Digital) dan Soft Skills (Komunikasi Digital), serta mengambil latar non-formal (ekskul) sebagai inkubator kesiapan kerja.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Kesiapan kerja itu ranahnya Guru BK atau kurikulum inti. Apa hubungannya Ekskul dengan MSDM (Manajemen SDM)?",
+          "answer": "\"Dalam kerangka Human Capital Theory, investasi SDM tidak hanya di kelas formal. Ekskul adalah bentuk pengembangan (Development) dalam siklus MSDM vokasi, di mana siswa belajar kolaborasi dan problem solving riil yang dicari industri.\""
+        }
+      ]
+    },
+    "penguji2": {
+      "title": "Penguji 2",
+      "subtitle": "BAB II - Teori & Logika Variabel",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Coba jelaskan apa itu Kompetensi Konten Digital tanpa melihat buku!",
+          "answer": "\"Kemampuan individu tidak hanya menggunakan medsos, tapi secara teknis bisa merancang, mengedit (audio/visual), dan mempublikasikan karya secara etis dan legal.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa kaitan logis antara Komunikasi Digital (X2) dengan Kesiapan Kerja (Y)?",
+          "answer": "\"Di era hybrid work, komunikasi bukan sekadar chat. Mahir membalas email profesional, etika (netiquette), dan kolaborasi via Google Workspace/Trello adalah soft skill utama. Jika komunikasi digital buruk, sehebat apapun hard skill-nya, dia tidak akan siap kerja di tim modern.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Menurut Anda, dari X1 dan X2, mana yang paling krusial menentukan Kesiapan Kerja?",
+          "answer": "\"Secara teoritis, Komunikasi Digital (X2). Menurut teori Spencer, soft skills/interpersonal ada di lapisan terdalam (watak/konsep diri) yang sulit dilatih secara instan dan sangat memprediksi kesuksesan jangka panjang, sedangkan tools editing konten bisa dipelajari relatif lebih cepat.\""
+        }
+      ]
+    },
+    "penguji3": {
+      "title": "Penguji 3",
+      "subtitle": "BAB III - Metodologi & Statistik",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Kenapa pakai Regresi Linier Berganda? Kenapa bukan korelasi saja?",
+          "answer": "\"Karena saya ingin membuktikan pengaruh sebab-akibat (kausalitas) dan memprediksi seberapa besar Y akan naik jika X1 dan X2 ditingkatkan. Korelasi hanya melihat keeratan hubungan, bukan pengaruh/dampak.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa gunanya Uji Asumsi Klasik dalam riset Anda? Sebutkan apa saja!",
+          "answer": "\"Sebagai syarat mutlak sebelum regresi agar modelnya BLUE (Best Linear Unbiased Estimator). Meliputi Uji Normalitas, Multikolinearitas (agar X1 dan X2 tidak tumpang tindih), Heteroskedastisitas, dan Linearitas.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Populasi Anda cuma 30. Bagaimana kalau data Uji Normalitas Anda hasilnya TIDAK NORMAL? Apa yang akan Anda lakukan?",
+          "answer": "\"Pertama, saya akan mengecek adakah data outlier (ekstrem) dan melakukan pembuangan data tersebut (trimming). Jika tetap tidak normal, saya siap menggunakan analisis regresi non-parametrik, atau menambah teknik triangulasi dengan wawancara.\""
+        }
+      ]
+    },
+    "ringkasan": {
+      "judul": "Pengaruh Kompetensi Konten Digital (X1) & Komunikasi Digital (X2) thdp Kesiapan Kerja (Y) Ekskul Jurnalistik SMKN 1 Plered.",
+      "objek": "30 Siswa (Sensus / Total Sampling).",
+      "definisiX1": "Merancang, editing, algoritma, publikasi (DigComp 2.2).",
+      "definisiX2": "Interaksi platform, sharing, Netiquette (etika), manajemen identitas digital.",
+      "definisiY": "Kondisi terpadu mental, hard skill, soft skill untuk transisi ke dunia profesional (Tentama, 2020).",
+      "metodeAnalisis": "SPSS - Uji Validitas (Pearson), Reliabilitas (Cronbach Alpha > 0.6), Asumsi Klasik, Regresi Linier Berganda, Uji T (Parsial), Uji F (Simultan), R-Square."
+    },
+    "simulasi": [
+      {
+        "question": "\"Kamu bilang kompetensi digital anak-anak ini rendah. Tapi anak jaman sekarang kan Gen-Z, tiap hari main TikTok/CapCut. Masa kompetensinya rendah? Gak masuk akal!\"",
+        "answer": "\"Betul Bapak/Ibu, mereka adalah digital native dalam hal konsumsi hiburan. Namun dalam konteks profesionalisme media, membedakan mana hoaks, menggunakan tools editing secara beretika, dan memahami lisensi hak cipta masih sangat minim. Itulah esensi kompetensi di riset ini, bukan sekadar bikin video joget.\""
+      },
+      {
+        "question": "\"Di Bab 1 kamu bahas disrupsi industri media dan jurnalisme masa kini. Tapi subjekmu cuma anak SMK ekskul desa. Terlalu muluk-muluk!\"",
+        "answer": "\"Justru di sinilah urgensinya. Disrupsi digital tidak mengenal batas geografis kota atau desa. Lulusan SMK daerah kini bersaing di pasar kerja global remote/freelance. Jika tidak disiapkan dari level ekskul, mereka akan menjadi penyumbang TPT (Tingkat Pengangguran Terbuka) terbesar seperti data BPS di halaman 2.\""
+      },
+      {
+        "question": "\"Bagaimana cara kamu mengukur 'etika digital/netiquette'? Semua orang pasti bohong di kuesioner dan milih jawaban yang baik-baik.\" (Bias Sosial).",
+        "answer": "\"Untuk meminimalisir Social Desirability Bias, pernyataan kuesioner tidak akan dibuat eksplisit 'Apakah Anda sopan?'. Melainkan berupa skenario kasus terbalik (pertanyaan negatif), misal: 'Saya merasa wajar membalas email/chat tanpa menyebutkan nama jika sedang buru-buru'. Validitas instrumen nanti yang akan menyaring konsistensi ini.\""
+      },
+      {
+        "question": "\"Kenapa variabel X-nya cuma 2? Kan banyak faktor lain yang bikin siap kerja?\"",
+        "answer": "\"Benar, kesiapan kerja itu multivariat. Namun saya membatasi pada X1 dan X2 karena ini adalah kompetensi spesifik (core competencies) yang paling relevan dengan aktivitas jurnalistik digital, sesuai dengan matriks yang direkomendasikan kerangka DigComp 2.2.\""
+      }
+    ],
+    "strategi": [
+      {
+        "title": "Pola Pikir (Mindset)",
+        "content": [
+          "Anggap sidang ini bukan pengadilan, melainkan konsultasi level tinggi.",
+          "Dosen menguji untuk melihat apakah Anda yang \"menyetir\" penelitian ini, atau Anda hanya di-joki-kan/asal copy paste."
+        ]
+      },
+      {
+        "title": "Saat Dosen Mengkritik Tajam",
+        "content": [
+          "TIDAK BOLEH MEMOTONG OMONGAN.",
+          "Gunakan kalimat peredam: \"Terima kasih atas koreksi Bapak/Ibu. Memang betul sudut pandang tersebut sangat relevan, dan ini menjadi masukan berharga untuk perbaikan proposal saya.\" (Setelah itu, baru sampaikan argumen Anda jika diminta)."
+        ]
+      },
+      {
+        "title": "Jika Anda Benar-Benar Lupa/Tidak Tahu",
+        "content": [
+          "Jangan mengarang bebas/asal ngomong. Dosen statistik tahu jika Anda berbohong soal rumus.",
+          "Gunakan kalimat penyelamat: \"Mohon maaf Bapak/Ibu, terkait detail rincian teori/rumus tersebut saya kurang ingat secara presisi saat ini. Namun referensi lengkapnya saya rujuk dari buku Sugiyono tahun 2022. Akan saya catat dan pastikan kembali.\""
+        ]
+      },
+      {
+        "title": "Bahasa Tubuh",
+        "content": [
+          "Bawa Buku Catatan dan Pulpen. Saat dosen bicara, MENULISLAH. Ini memberikan kesan psikologis bahwa Anda sangat menghargai ilmu mereka.",
+          "Tatap mata dosen (bagian batang hidungnya jika gugup) saat menjawab, jangan menunduk ke naskah terus."
+        ]
+      },
+      {
+        "title": "Tips Persiapan Teknis",
+        "content": [
+          "Buatlah Slide Presentasi yang sangat ringkas (Maksimal 10-12 slide). Jangan memindahkan isi word ke PPT.",
+          "Buat skema/diagram, terutama di kerangka pemikiran yang hilang di proposal Anda!"
+        ]
+      }
+    ],
+    "tugas": [
+      "Gambarkan Kerangka Pemikiran (Kotak X1, Kotak X2, panah ke Kotak Y) dan letakkan di Bab 2.",
+      "Tambahkan penjelasan metode MSI di Bab 3 jika Anda menggunakan Regresi.",
+      "Berlatihlah bicara menjawab pertanyaan di atas di depan cermin atau direkam pakai HP."
+    ],
+    "presentasi": [
+      {
+        "slide": "Slide 1",
+        "title": "Judul Penelitian",
+        "points": [
+          "Pengaruh Kompetensi Konten Digital (X1) & Komunikasi Digital (X2) thdp Kesiapan Kerja (Y) Ekskul Jurnalistik SMKN 1 Plered.",
+          "Oleh: Ridwan",
+          "Objek Penelitian: 30 Siswa (Sensus / Total Sampling)."
+        ]
+      },
+      {
+        "slide": "Slide 2",
+        "title": "Latar Belakang & Fenomena",
+        "points": [
+          "Fenomena utama yang terjadi di lapangan:",
+          "Alur latar belakang (piramida terbalik) dari era society 5.0, digitalisasi media, hingga ke SMK sudah sangat baik. Research gap dari 30 jurnal terdahulu (di Bab 2) sangat kuat.",
+          "Alasan pemilihan objek penelitian ini sangat penting dan relevan dengan kondisi saat ini."
+        ]
+      },
+      {
+        "slide": "Slide 3",
+        "title": "Rumusan Masalah & Tujuan",
+        "points": [
+          "Rumusan Masalah:",
+          "Bagaimana pengaruh variabel independen terhadap variabel dependen pada 30 Siswa (Sensus / Total Sampling).?",
+          "Tujuan Penelitian:",
+          "Untuk mengetahui dan menganalisis pengaruh tersebut secara empiris."
+        ]
+      },
+      {
+        "slide": "Slide 4",
+        "title": "Tinjauan Pustaka (Grand Theory)",
+        "points": [
+          "Definisi X1: Merancang, editing, algoritma, publikasi (DigComp 2.2).",
+          "Definisi X2: Interaksi platform, sharing, Netiquette (etika), manajemen identitas digital.",
+          "Definisi Y: Kondisi terpadu mental, hard skill, soft skill untuk transisi ke dunia profesional (Tentama, 2020)."
+        ]
+      },
+      {
+        "slide": "Slide 5",
+        "title": "Metodologi Penelitian",
+        "points": [
+          "Metode Analisis: SPSS - Uji Validitas (Pearson), Reliabilitas (Cronbach Alpha > 0.6), Asumsi Klasik, Regresi Linier Berganda, Uji T (Parsial), Uji F (Simultan), R-Square.",
+          "Populasi & Sampel: 30 Siswa (Sensus / Total Sampling).",
+          "Kelebihan Metode: Pemilihan metode Sensus (Total Sampling) karena populasi hanya 30 orang sudah tepat menurut kaidah statistik dasar."
+        ]
+      },
+      {
+        "slide": "Slide 6",
+        "title": "Kesimpulan & Penutup",
+        "points": [
+          "Penelitian ini diharapkan dapat memberikan kontribusi teoritis dan praktis.",
+          "Terima kasih atas perhatian Bapak/Ibu Dosen Penguji.",
+          "Mohon masukan dan arahannya."
+        ]
+      }
+    ],
+    "kamus": [
+      {
+        "term": "Hipotesis",
+        "definition": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "term": "Populasi",
+        "definition": "Keseluruhan subjek penelitian yang memiliki karakteristik tertentu."
+      },
+      {
+        "term": "Sampel",
+        "definition": "Sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "term": "Regresi Linier",
+        "definition": "Metode statistik untuk memodelkan hubungan antara variabel dependen dan independen."
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "f1",
+        "front": "Apa itu Hipotesis?",
+        "back": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "id": "f2",
+        "front": "Apa bedanya Populasi dan Sampel?",
+        "back": "Populasi adalah keseluruhan subjek, sedangkan Sampel adalah sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "id": "f3",
+        "front": "Mengapa menggunakan Regresi Linier?",
+        "back": "Untuk mengetahui seberapa besar pengaruh variabel independen terhadap variabel dependen."
+      }
+    ]
+  },
+  {
+    "id": "reza",
+    "name": "Reza",
+    "topic": "Pengaruh Adopsi Software as a Service (SaaS) dan Generative AI terhadap Kinerja Pemasaran UMKM di Purwakarta",
+    "analisis": [
+      {
+        "bab": "BAB I: Pendahuluan",
+        "kelebihan": "Latar belakang sangat terstruktur. Memulai dari makro (global/nasional dengan data APJII) ke mikro (Purwakarta). Pra-survei (45 responden) sangat bagus untuk membuktikan das sein vs das sollen. Terdapat research gap yang jelas (fokus ke SaaS mandiri, bukan marketplace).",
+        "kelemahan": "Anda menyebutkan ada 32.000 UMKM di Purwakarta, tapi di Bab III populasinya hanya 30 pengguna BisnisQu. Gap antara 32.000 ke 30 ini terlalu jauh dan bisa dipertanyakan representasinya.",
+        "potensiKritik": "Dosen Penguji 1 akan menyerang urgensi: \"Apakah meneliti 30 pengguna BisnisQu sudah bisa merepresentasikan peningkatan kinerja UMKM Purwakarta secara umum?\"",
+        "solusiKritik": "Jelaskan bahwa fokus penelitian ini BUKAN untuk menggeneralisasi seluruh UMKM Purwakarta, melainkan menguji efektivitas adopsi SaaS pada UMKM yang 'sudah onboarding' (early adopters) sebagai studi kasus percontohan."
+      },
+      {
+        "bab": "BAB II: Tinjauan Pustaka",
+        "kelebihan": "Sintesis teori sangat baik. Penggunaan TAM untuk X1 dan Resource-Based View (RBV) untuk X2 sangat pas. Tabel pemetaan 30 literatur adalah \"senjata utama\" Anda yang menunjukkan Anda rajin membaca.",
+        "kelemahan": "Di halaman 34, Anda tiba-tiba memunculkan teori Task-Technology Fit (TTF) di kerangka pemikiran, padahal di halaman 11-13 saat membahas landasan teori pendukung, Anda hanya fokus pada TAM dan RBV.",
+        "potensiKritik": "Penguji 2 yang teliti akan mengejar mengapa ada teori (TTF) yang tiba-tiba muncul di kerangka pemikiran tapi tidak dibedah di sub-bab landasan teori.",
+        "solusiKritik": "Akui kekurangan tersebut dan segera tambahkan sub-bab penjelasan mengenai teori Task-Technology Fit (TTF) di Bab 2 sebelum sidang."
+      },
+      {
+        "bab": "BAB III: Metodologi Penelitian",
+        "kelebihan": "Operasionalisasi variabel (Tabel 1.7) sangat jelas, indikatornya terukur dan didukung rujukan jurnal. Alur analisis statistik standar dan aman (SPSS).",
+        "kelemahan": "Jumlah Sampel (N = 30). Ini adalah titik paling berdarah dalam proposal Anda. Meskipun Anda menggunakan Teorema Limit Pusat (batas minimal 30) dan teknik Sensus, melakukan Uji Regresi Linier Berganda dengan hanya 30 sampel sangat rawan tidak lolos uji asumsi klasik (terutama normalitas dan heteroskedastisitas).",
+        "potensiKritik": "Penguji 3 akan membantai kekuatan statistik Anda. \"N=30 untuk 2 variabel independen dianggap sangat lemah (low statistical power). Bagaimana jika data tidak normal?\"",
+        "solusiKritik": "Siapkan 'Plan B'. Sampaikan bahwa jika data tidak lolos uji asumsi klasik parametrik, Anda sudah siap untuk menggunakan alat analisis non-parametrik seperti SmartPLS (PLS-SEM) yang tidak mensyaratkan data berdistribusi normal."
+      }
+    ],
+    "titikRawan": [
+      {
+        "title": "N = 30 (Sensus)",
+        "attack": "\"Regresi butuh data besar agar akurat. Sampel Anda hanya 30, itu batas mutlak paling bawah. Bagaimana Anda yakin hasil regresinya valid?\"",
+        "defense": "\"Penelitian ini bersifat spesifik pada early adopters platform BisnisQu di Purwakarta. Sesuai aturan Roscoe (1982), ukuran sampel 30 sudah layak. Jika nanti data tidak normal, saya siap menggunakan alternatif statistik non-parametrik (misal: SmartPLS), Bapak/Ibu.\""
+      },
+      {
+        "title": "Populasi 32.000 vs 30",
+        "attack": "\"Judul Anda 'UMKM Lokal di Purwakarta', seolah mewakili puluhan ribu UMKM, padahal yang diteliti cuma 30. Ini overclaiming!\"",
+        "defense": "\"Fokus penelitian ini bukan menggeneralisasi seluruh UMKM Purwakarta, melainkan menguji 'kemanjuran' adopsi SaaS & AI pada UMKM yang sudah onboarding. Judul dapat direvisi jika Bapak/Ibu merasa terlalu luas.\""
+      },
+      {
+        "title": "Subjektivitas Kinerja (Y)",
+        "attack": "\"Kinerja diukur pakai kuesioner (persepsi), bukan data laporan keuangan atau traffic asli. Ini sangat subjektif dan bias!\"",
+        "defense": "\"Sangat sulit meminta data finansial riil dari UMKM karena masalah privasi dan pencatatan. Oleh karena itu, pendekatan perceived performance digunakan, yang juga lazim dan disahkan dalam literatur pemasaran digital (Kannan & Li, 2017).\""
+      },
+      {
+        "title": "Promosi Aplikasi Terselubung",
+        "attack": "\"Jangan-jangan skripsi ini cuma untuk promosi atau jualan aplikasi BisnisQu saja?\"",
+        "defense": "\"Platform BisnisQu di sini diposisikan murni sebagai use case / instrumen perwakilan dari ekosistem SaaS mandiri. Fokus saya pada perilaku adopsi teknologi-nya, bukan pada perusahaannya.\""
+      }
+    ],
+    "penguji1": {
+      "title": "Penguji 1",
+      "subtitle": "BAB I - Fenomena & Masalah",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa urgensi penelitian ini? Kenapa harus meneliti ini sekarang?",
+          "answer": "\"Urgensinya adalah adanya fenomena digital divide. UMKM kita dipaksa go-digital, tapi mentok di marketplace (Shopee/Tokped) yang sering memicu perang harga. BisnisQu dan AI hadir sebagai solusi kemandirian (SaaS), dan saya ingin menguji apakah teknologi ini benar-benar berdampak atau sekadar tren.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa bedanya penelitian kamu dengan penelitian terdahulu?",
+          "answer": "\"Mayoritas dari 30 literatur yang saya petakan meneliti e-commerce konvensional. Kebaruan saya ada di Theoretical Gap: menggabungkan adopsi SaaS dan Generative AI sebagai satu kesatuan (Integrated Ecosystem) terhadap kinerja pemasaran.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Di pra-survei kamu pakai 45 responden, tapi di sampel penelitian kenapa malah cuma 30? Menurun?",
+          "answer": "\"Pra-survei ditujukan pada populasi UMKM Purwakarta secara umum untuk mencari tahu 'masalah pemasaran'. Sedangkan sampel penelitian (30) secara spesifik ditarik dari UMKM yang sudah menggunakan BisnisQu untuk menguji 'solusinya'.\""
+        }
+      ]
+    },
+    "penguji2": {
+      "title": "Penguji 2",
+      "subtitle": "BAB II - Teori & Konsep",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa itu TAM dan kenapa pakai teori itu untuk X1?",
+          "answer": "\"TAM (Technology Acceptance Model) adalah teori dari Fred Davis. Saya menggunakannya karena sukses tidaknya BisnisQu (X1) sangat bergantung pada persepsi kemudahan (Ease of Use) dan kemanfaatan (Usefulness) dari pelaku UMKM itu sendiri.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Mengapa Smart AI (X2) dikaitkan dengan Resource-Based View (RBV)?",
+          "answer": "\"Teori RBV menyatakan keunggulan kompetitif berasal dari sumber daya yang langka dan tak tergantikan. Bagi UMKM, kapabilitas menggunakan AI untuk analitik dan pembuat konten adalah sumber daya dinamis (aset intangible) yang membuat mereka lebih unggul dari pesaing konvensional.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Di halaman 34 ada teori TTF (Task-Technology Fit), tapi di landasan teori Bab 2 tidak ada penjelasannya. Bisa jelaskan?",
+          "answer": "(Tersenyum & Mengakui) \"Terima kasih atas koreksi ketelitiannya, Bapak/Ibu. Betul, penjabaran TTF terlewat di sub-bab landasan teori. Konsep TTF menjustifikasi bahwa teknologi AI baru akan berguna jika 'cocok' dengan 'tugas' pemasaran UMKM. Saya akan menambahkannya di revisi Bab II.\""
+        }
+      ]
+    },
+    "penguji3": {
+      "title": "Penguji 3",
+      "subtitle": "BAB III - Metodologi & Statistik",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa teknik sampling yang kamu gunakan?",
+          "answer": "\"Saya menggunakan Non-Probability Sampling dengan pendekatan Saturated Sampling atau Sensus, karena seluruh populasi pengguna aktif BisnisQu di Purwakarta yang berjumlah 30 unit dijadikan sampel.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Bagaimana kamu mengukur Peningkatan Kinerja Pemasaran (Y)?",
+          "answer": "\"Saya ukur menggunakan instrumen ordinal skala Likert 1-5 berdasarkan tiga dimensi: Perluasan Jangkauan Pasar, Peningkatan Citra Merek, dan Efisiensi Konversi Penjualan. Indikatornya diadaptasi dari literatur Chaffey & Ellis-Chadwick.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "N kamu cuma 30. Bagaimana kalau data kamu nanti tidak lolos Uji Normalitas? Skripsi kamu gagal?",
+          "answer": "\"Tidak gagal, Bapak/Ibu. Jika tidak lolos uji normalitas atau asumsi klasik regresi berganda, saya memiliki plan B, yaitu beralih menggunakan statistik non-parametrik, atau memodelkan data menggunakan PLS-SEM (SmartPLS) yang tidak mensyaratkan data berdistribusi normal.\""
+        }
+      ]
+    },
+    "ringkasan": {
+      "judul": "Pengaruh Adopsi Software as a Service (SaaS) dan Generative AI terhadap Kinerja Pemasaran UMKM di Purwakarta",
+      "objek": "30 Pengguna Aktif BisnisQu (Sensus).",
+      "definisiX1": "Adopsi SaaS (BisnisQu) diukur dengan TAM (Ease of Use & Usefulness).",
+      "definisiX2": "Smart AI diukur dengan kapabilitas RBV (sumber daya dinamis pembuat konten & prediksi).",
+      "definisiY": "Kinerja Pemasaran (Jangkauan, Citra Merek, Konversi).",
+      "metodeAnalisis": "Kuantitatif Asosiatif Kausal. Sensus (30 responden). Uji Regresi Linier Berganda."
+    },
+    "simulasi": [
+      {
+        "question": "\"Apakah kinerja pemasaran naik benar-benar karena AI (X2), atau karena kebetulan momentumnya pas bulan Ramadhan/Lebaran?\"",
+        "answer": "\"Itulah fungsi kuesioner tertutup, Bapak/Ibu. Item pertanyaan secara spesifik menanyakan 'Dampak penggunaan fitur AI terhadap...'. Jadi persepsi yang diukur langsung diikat pada treatment teknologi tersebut, bukan penjualan secara umum. Namun saya akui, faktor eksternal makro tidak bisa 100% dieliminasi.\""
+      },
+      {
+        "question": "\"Judul kamu pakai kata 'Smart AI'. Memang ada AI yang bodoh (Stupid AI)? Kenapa tidak pakai Artificial Intelligence saja?\"",
+        "answer": "\"Penggunaan kata Smart di sini merujuk pada brand feature atau nomenklatur di dalam platform BisnisQu itu sendiri, bukan mendikotomikan AI pintar vs bodoh. Ini membedakan AI generatif modern dengan sistem otomasi rule-based konvensional.\""
+      },
+      {
+        "question": "\"Jika hipotesis kamu nanti ditolak (ternyata AI tidak berpengaruh), apa yang akan kamu lakukan? Bikin data palsu supaya diterima?\"",
+        "answer": "\"Sama sekali tidak, Bapak/Ibu. Dalam penelitian kuantitatif, hipotesis ditolak adalah temuan ilmiah yang sama berharganya. Jika AI tidak berpengaruh, itu akan menjadi temuan empiris bahwa literasi digital UMKM di Purwakarta belum siap menerima AI, dan ini menjadi rekomendasi mahal bagi pemerintah daerah.\""
+      }
+    ],
+    "strategi": [
+      {
+        "title": "Jurus Mengendalikan Presentasi",
+        "content": [
+          "Saat presentasi 10-15 menit pertama, jangan baca slide penuh teks.",
+          "Fokus ceritakan alasan logis (Bab 1) dan pemetaan 30 jurnal (Bab 2). Dosen sangat menghargai mahasiswa yang tahu alasan mengapa dia meneliti."
+        ]
+      },
+      {
+        "title": "Gestur saat Dikritik",
+        "content": [
+          "Jangan pernah memotong pembicaraan dosen.",
+          "Catat setiap kritikan di buku (meskipun Anda tidak setuju).",
+          "Mengangguklah. Dosen suka melihat mahasiswa yang teachable (mau diajar)."
+        ]
+      },
+      {
+        "title": "\"Kalimat Penyelamat\" saat Tidak Tahu Jawaban",
+        "content": [
+          "\"Mohon maaf Bapak/Ibu, untuk rincian formula statistik tersebut saat ini saya kurang hafal, namun saya merujuk pada buku panduan Prof. Sugiyono (2022). Saya akan pelajari kembali dan memastikan perhitungannya valid.\"",
+          "\"Terima kasih atas sudut pandang Bapak/Ibu yang sangat tajam. Terus terang aspek tersebut belum sepenuhnya saya cover dalam proposal ini, dan ini akan menjadi masukan yang sangat berharga untuk perbaikan Bab... saya.\""
+        ]
+      },
+      {
+        "title": "Hindari Kata \"Mungkin\"",
+        "content": [
+          "Jangan pernah menjawab dengan kata \"Mungkin karena...\", \"Bisa jadi...\", \"Kayaknya...\".",
+          "Ganti dengan kata yang tegas: \"Berdasarkan asumsi awal saya...\", \"Merujuk pada fenomena di lapangan...\", \"Berdasarkan rujukan jurnal...\""
+        ]
+      }
+    ],
+    "tugas": [
+      "Siapkan back-up landasan teori mengenai Task-Technology Fit (TTF) sebelum sidang, karena itu tertulis di halaman 34 (Gambar 1.1) tapi luput Anda bahas di teks sebelumnya.",
+      "Pertahankan argumen rasional di balik sampel \"30\" tersebut dengan tenang."
+    ],
+    "presentasi": [
+      {
+        "slide": "Slide 1",
+        "title": "Judul Penelitian",
+        "points": [
+          "Pengaruh Adopsi Software as a Service (SaaS) dan Generative AI terhadap Kinerja Pemasaran UMKM di Purwakarta",
+          "Oleh: Reza",
+          "Objek Penelitian: 30 Pengguna Aktif BisnisQu (Sensus)."
+        ]
+      },
+      {
+        "slide": "Slide 2",
+        "title": "Latar Belakang & Fenomena",
+        "points": [
+          "Fenomena utama yang terjadi di lapangan:",
+          "Latar belakang sangat terstruktur. Memulai dari makro (global/nasional dengan data APJII) ke mikro (Purwakarta). Pra-survei (45 responden) sangat bagus untuk membuktikan das sein vs das sollen. Terdapat research gap yang jelas (fokus ke SaaS mandiri, bukan marketplace).",
+          "Alasan pemilihan objek penelitian ini sangat penting dan relevan dengan kondisi saat ini."
+        ]
+      },
+      {
+        "slide": "Slide 3",
+        "title": "Rumusan Masalah & Tujuan",
+        "points": [
+          "Rumusan Masalah:",
+          "Bagaimana pengaruh variabel independen terhadap variabel dependen pada 30 Pengguna Aktif BisnisQu (Sensus).?",
+          "Tujuan Penelitian:",
+          "Untuk mengetahui dan menganalisis pengaruh tersebut secara empiris."
+        ]
+      },
+      {
+        "slide": "Slide 4",
+        "title": "Tinjauan Pustaka (Grand Theory)",
+        "points": [
+          "Definisi X1: Adopsi SaaS (BisnisQu) diukur dengan TAM (Ease of Use & Usefulness).",
+          "Definisi X2: Smart AI diukur dengan kapabilitas RBV (sumber daya dinamis pembuat konten & prediksi).",
+          "Definisi Y: Kinerja Pemasaran (Jangkauan, Citra Merek, Konversi)."
+        ]
+      },
+      {
+        "slide": "Slide 5",
+        "title": "Metodologi Penelitian",
+        "points": [
+          "Metode Analisis: Kuantitatif Asosiatif Kausal. Sensus (30 responden). Uji Regresi Linier Berganda.",
+          "Populasi & Sampel: 30 Pengguna Aktif BisnisQu (Sensus).",
+          "Kelebihan Metode: Operasionalisasi variabel (Tabel 1.7) sangat jelas, indikatornya terukur dan didukung rujukan jurnal. Alur analisis statistik standar dan aman (SPSS)."
+        ]
+      },
+      {
+        "slide": "Slide 6",
+        "title": "Kesimpulan & Penutup",
+        "points": [
+          "Penelitian ini diharapkan dapat memberikan kontribusi teoritis dan praktis.",
+          "Terima kasih atas perhatian Bapak/Ibu Dosen Penguji.",
+          "Mohon masukan dan arahannya."
+        ]
+      }
+    ],
+    "kamus": [
+      {
+        "term": "Hipotesis",
+        "definition": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "term": "Populasi",
+        "definition": "Keseluruhan subjek penelitian yang memiliki karakteristik tertentu."
+      },
+      {
+        "term": "Sampel",
+        "definition": "Sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "term": "Regresi Linier",
+        "definition": "Metode statistik untuk memodelkan hubungan antara variabel dependen dan independen."
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "f1",
+        "front": "Apa itu Hipotesis?",
+        "back": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "id": "f2",
+        "front": "Apa bedanya Populasi dan Sampel?",
+        "back": "Populasi adalah keseluruhan subjek, sedangkan Sampel adalah sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "id": "f3",
+        "front": "Mengapa menggunakan Regresi Linier?",
+        "back": "Untuk mengetahui seberapa besar pengaruh variabel independen terhadap variabel dependen."
+      }
+    ]
+  },
+  {
+    "id": "farid",
+    "name": "Farid",
+    "topic": "Pengaruh Peredaran Rokok Ilegal dan Penetapan Tarif Cukai Rokok Terhadap Laba Usaha PT. HM Sampoerna Tbk",
+    "analisis": [
+      {
+        "bab": "BAB I: PENDAHULUAN",
+        "kelebihan": "Fenomena gap-nya sangat jelas. Anda berhasil menampilkan data empiris (grafik jumlah penindakan rokok ilegal, indeks tarif cukai, dan penurunan laba HMSP meski penjualan naik). Alur logika latar belakangnya mengalir dengan baik.",
+        "kelemahan": "Asumsi dasar bahwa \"jumlah rokok ilegal yang ditindak = jumlah rokok ilegal yang beredar\". Ini logika yang bisa diperdebatkan.",
+        "potensiKritik": "Penguji akan mengejar validitas indikator Anda.",
+        "solusiKritik": "Gunakan argumen bahwa data peredaran aktual pasar gelap tidak mungkin didapatkan karena sifatnya unrecorded. Dalam penelitian ekonomi, data penindakan (seizure data) adalah proxy empiris terbaik."
+      },
+      {
+        "bab": "BAB II: TINJAUAN PUSTAKA",
+        "kelebihan": "Menjelaskan konsep down-trading (konsumen turun kelas ke rokok murah/ilegal) dengan baik. Tabel penelitian terdahulu sangat lengkap (30 jurnal) yang menunjukkan effort luar biasa.",
+        "kelemahan": "Definisi Manajemen dan Manajemen Keuangan di awal terlalu normatif (buku teks banget). Harusnya langsung fokus ke Teori Kinerja Keuangan dan Kebijakan Fiskal.",
+        "potensiKritik": "Dosen teori akan menganggap Anda kurang memahami \"Grand Theory\" apa yang memayungi penelitian ini.",
+        "solusiKritik": "Fokuskan bahwa Grand theory penelitian ini berakar pada Financial Management Theory terkait profitabilitas perusahaan, serta Theory of Firm (Teori Perusahaan)."
+      },
+      {
+        "bab": "BAB III: METODE PENELITIAN",
+        "kelebihan": "Operasionalisasi variabel jelas. Penggunaan Operating Profit sangat cerdas dibanding Net Profit karena meniadakan bias pajak dan bunga.",
+        "kelemahan": "Jumlah Sampel (N) = 12. Anda menggunakan data triwulan (2021-2023). Dalam statistik regresi linear berganda (OLS), sampel kurang dari 30 sangat rawan tidak berdistribusi normal dan tidak valid merepresentasikan populasi. Data Cukai Konstan per Tahun.",
+        "potensiKritik": "Penguji 3 akan langsung membantai kelayakan model statistik Anda (N=12 dan data cukai konstan).",
+        "solusiKritik": "Siapkan argumen Teori Roscoe (1975) dan tawarkan untuk memperpanjang periode penelitian menjadi 5 atau 8 tahun (2016-2023) agar N memenuhi syarat >30. Ganti X2 dengan Beban Cukai per Triwulan."
+      }
+    ],
+    "titikRawan": [
+      {
+        "title": "Sampel Hanya 12 (N=12)",
+        "attack": "Syarat OLS idealnya N > 30. N=12 sangat berisiko gagal uji asumsi klasik (terutama normalitas).",
+        "defense": "\"Terima kasih Bapak/Ibu. Betul, N=12 adalah keterbatasan penelitian ini. Namun, menurut Teori Roscoe (1975), untuk regresi sederhana minimal sampel bisa 10 atau 10x jumlah variabel. Namun, jika Bapak/Ibu penguji menyarankan agar hasil lebih robust, saya sangat bersedia memperpanjang periode penelitian menjadi 5 atau 8 tahun (2016-2023) agar N memenuhi syarat >30.\""
+      },
+      {
+        "title": "Data X2 (Cukai) Konstan Triwulanan",
+        "attack": "SPSS tidak bisa meregresi data yang tidak bergerak (konstan) dalam periode waktu.",
+        "defense": "\"Saya menyadari tarif cukai ditetapkan tahunan. Jika nanti terjadi kendala statistik pada data triwulanan (missing variance), saya bersedia mengubah unit analisis menjadi data tahunan (dengan memperpanjang tahun) ATAU menggunakan proksi lain seperti Beban Pita Cukai HMSP per triwulan.\""
+      },
+      {
+        "title": "Validitas Proksi Rokok Ilegal (X1)",
+        "attack": "Semakin banyak rokok ditindak, bukan berarti makin banyak beredar. Bisa jadi Bea Cukai-nya yang makin rajin.",
+        "defense": "\"Benar Pak/Bu, data peredaran aktual pasar gelap tidak mungkin didapatkan karena sifatnya unrecorded. Dalam penelitian ekonomi, data penindakan (seizure data) adalah proxy empiris terbaik dan diakui secara akademis untuk mengestimasi ukuran illicit trade, seperti yang digunakan oleh (sebutkan salah satu peneliti di tabel bab 2).\""
+      }
+    ],
+    "penguji1": {
+      "title": "Penguji 1",
+      "subtitle": "BAB I - Fenomena & Masalah",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Mengapa kamu memilih PT HM Sampoerna? Mengapa tidak Gudang Garam?",
+          "answer": "\"HMSP memiliki pangsa pasar terbesar di Indonesia dan portofolio SKT (Sigaret Kretek Tangan) yang besar. Perubahan cukai dan gempuran rokok ilegal paling memukul pemain market leader seperti HMSP. Laba mereka turun berturut-turut meski penjualan naik, ini anomali yang menarik diteliti.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa rumusan masalah utama dari skripsi Anda?",
+          "answer": "\"Rumusan utamanya adalah membuktikan secara empiris apakah penurunan laba usaha HMSP diakibatkan oleh double shock (tekanan ganda): yaitu peningkatan beban biaya akibat naiknya X2 (cukai) dan hilangnya pangsa pasar akibat masifnya X1 (rokok ilegal).\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Kamu yakin rokok ilegal merugikan HMSP? Bukannya pasarnya beda? Konsumen HMSP elit, konsumen rokok ilegal menengah bawah.",
+          "answer": "\"Menurut konsep down-trading, saat harga rokok legal HMSP naik drastis akibat cukai, konsumen yang memiliki elastisitas harga tinggi (sensitif harga) akan 'turun kelas' dan mensubstitusi konsumsinya ke rokok ilegal. Jadi pasarnya beririsan langsung, Pak/Bu.\""
+        }
+      ]
+    },
+    "penguji2": {
+      "title": "Penguji 2",
+      "subtitle": "BAB II - Teori & Kerangka Pemikiran",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa Grand Theory penelitian Anda?",
+          "answer": "\"Grand theory penelitian ini berakar pada Financial Management Theory terkait profitabilitas perusahaan, serta Theory of Firm (Teori Perusahaan) yang menjelaskan bagaimana regulasi eksternal (cukai) dan distorsi pasar (pasar gelap) mendisrupsi maksimalisasi laba.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Mengapa kamu pakai Laba Usaha (Operating Profit), bukan Laba Bersih (Net Profit)?",
+          "answer": "\"Laba Usaha adalah indikator paling murni untuk mengukur efisiensi core business perusahaan. Jika saya pakai Laba Bersih, angkanya akan terdistorsi oleh pajak penghasilan, beban bunga utang, atau investasi lain di luar operasional rokok.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Jika hipotesis kamu H2 (Cukai) berpengaruh negatif, berarti menurutmu pemerintah tidak usah naikkan cukai?",
+          "answer": "\"Tujuan penelitian ini bukan menentang kebijakan pemerintah, melainkan memotret dampak finansialnya. Secara akademis, kenaikan cukai memang mendatangkan penerimaan negara (fiskal), namun menimbulkan trade-off bagi korporasi berupa tekanan margin, yang memicu efisiensi.\""
+        }
+      ]
+    },
+    "penguji3": {
+      "title": "Penguji 3",
+      "subtitle": "BAB III - Metodologi & Statistik",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Jelaskan kerangka berpikir kamu secara singkat!",
+          "answer": "\"X1 dan X2 adalah dua tekanan eksternal. X2 menekan dari sisi BIAYA PRODUKSI (harga naik). X1 menekan dari sisi PENJUALAN (kehilangan konsumen). Keduanya secara simultan menggerus margin keuntungan, yang berakibat turunnya Y (Laba Usaha).\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apa yang terjadi jika uji normalitas kamu gagal? Data kamu kan cuma 12.",
+          "answer": "\"Karena N=12 sangat rentan terhadap outlier, jika gagal asumsi klasik, saya akan melakukan transformasi data (misal ke logaritma natural/Ln) atau, yang paling rasional, saya akan meminta izin untuk menambah rentang tahun data penelitian menjadi 2018-2023 agar N > 30.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Variabel Cukai (X2) kamu triwulanan konstan nilainya di tahun yang sama. Bagaimana regresi bisa memproses variabel independen yang tidak ada variansinya?",
+          "answer": "\"(Tersenyum tenang) Pengamatan Bapak/Ibu sangat tajam. Data konstan kuartalan memang berisiko zero variance dalam setahun. Solusi yang saya siapkan adalah: X2 tidak menggunakan Indeks Tarif Tahunan, tetapi saya ganti dengan Beban Cukai per Triwulan yang dibayarkan oleh HMSP (ada di Laporan Keuangan). Angka ini akan berfluktuasi setiap triwulan, sehingga layak diregresi secara OLS.\""
+        }
+      ]
+    },
+    "ringkasan": {
+      "judul": "Pengaruh Peredaran Rokok Ilegal dan Penetapan Tarif Cukai Rokok Terhadap Laba Usaha PT. HM Sampoerna Tbk",
+      "objek": "PT HM Sampoerna Tbk (2021-2023 / N=12 triwulan).",
+      "definisiX1": "Rokok Ilegal (Diukur dari jumlah batang rokok yang ditindak Bea Cukai dalam Juta batang).",
+      "definisiX2": "Tarif Cukai (Diukur dari Indeks Tarif Cukai).",
+      "definisiY": "Laba Usaha (EBIT/Operating Profit).",
+      "metodeAnalisis": "Regresi Linear Berganda (SPSS), Asumsi Klasik, Uji T (Parsial), Uji F (Simultan)."
+    },
+    "simulasi": [
+      {
+        "question": "\"Judulmu 'Pengaruh Peredaran', tapi data yang dipakai 'Penindakan'. Bukannya itu kebalikannya?\"",
+        "answer": "\"Benar Pak, 'peredaran' riil black market tidak bisa diukur akurat. Dalam studi empiris, data 'penindakan' digunakan sebagai proxy terbaik. Logikanya, lonjakan barang yang ditangkap merepresentasikan lonjakan aktivitas suplai di pasar gelap.\""
+      },
+      {
+        "question": "\"Kenapa harus regresi linier berganda? Kenapa tidak analisis jalur (path analysis)?\"",
+        "answer": "\"Karena penelitian ini tidak menggunakan variabel intervening/mediasi. Hubungan yang saya uji adalah pengaruh langsung (direct effect) dari dua variabel independen (X1, X2) terhadap satu variabel dependen (Y).\""
+      },
+      {
+        "question": "\"Apa bedanya penelitian kamu dengan penelitian sebelumnya? Semuanya sama-sama bahas rokok ilegal.\"",
+        "answer": "\"Banyak penelitian terdahulu (seperti Widyawati 2023 atau Azis 2024) hanya berfokus pada dampak ke Penerimaan Negara/Cukai. Kebaruan (novelty) penelitian saya adalah menarik dampak makro tersebut ke dalam ruang mikro, yakni dampaknya secara langsung terhadap Profitabilitas Korporasi/Emiten.\""
+      },
+      {
+        "question": "\"Jika hasilnya nanti ternyata Rokok Ilegal (X1) TIDAK BERPENGARUH terhadap Laba (Y), apakah skripsimu gagal?\"",
+        "answer": "\"Tidak gagal, Pak/Bu. Dalam kuantitatif, menerima hipotesis nol (H0) adalah temuan empiris. Jika tidak berpengaruh, artinya HMSP memiliki brand equity yang sangat kuat sehingga konsumennya sangat loyal dan tidak terpengaruh oleh hadirnya rokok ilegal.\""
+      },
+      {
+        "question": "\"Coba jelaskan apa itu Uji Asumsi Klasik Heteroskedastisitas dengan bahasa awam!\"",
+        "answer": "\"Heteroskedastisitas itu menguji apakah 'kesalahan/eror' dalam tebakan data kita makin lama makin membesar atau menyebar tak karuan. Model yang baik harusnya erornya stabil (homoskedastisitas).\""
+      },
+      {
+        "question": "\"Menurut kamu, HMSP ini masuk kategori industri apa? Oligopoli, Monopoli, atau Persaingan Sempurna?\"",
+        "answer": "\"Industri rokok di Indonesia masuk ke dalam pasar Oligopoli ketat, di mana pangsa pasar dikuasai segelintir raksasa (HMSP, GGRM, Djarum). Oleh karena itu, regulasi (cukai) sangat sensitif mengubah peta persaingan.\""
+      },
+      {
+        "question": "\"Darimana kamu dapat data target Indeks Cukai 2020=100?\"",
+        "answer": "\"Saya menggunakan data sekunder dari Nota Keuangan APBN dan Peraturan Menteri Keuangan (PMK) terkait Cukai Hasil Tembakau yang diperbarui setiap tahun.\""
+      },
+      {
+        "question": "\"Berapa tingkat signifikansi yang kamu pakai dan kenapa?\"",
+        "answer": "\"Saya menggunakan Alpha 5% (0,05). Ini adalah standar baku dalam riset ilmu ekonomi dan sosial untuk menyeimbangkan risiko Type I error dan Type II error.\""
+      },
+      {
+        "question": "\"Kenapa cuma sampai tahun 2023? Kenapa tidak pakai data 2024?\"",
+        "answer": "\"Karena saat proposal ini disusun, data Laporan Keuangan Tahunan Audited (telah diaudit) untuk tahun penuh 2024 belum seluruhnya dipublikasikan secara resmi oleh BEI.\""
+      },
+      {
+        "question": "\"Kalau saya minta kamu membuang satu variabel X, kamu akan buang yang mana?\"",
+        "answer": "\"Tentu tidak ada yang saya buang, Pak/Bu. Karena X1 (pasar gelap) dan X2 (regulasi resmi) bagaikan dua sisi mata uang yang saat ini secara bersamaan mencekik industri hasil tembakau. Menghilangkan salah satunya akan membuat analisis tidak komprehensif.\""
+      }
+    ],
+    "strategi": [
+      {
+        "title": "Jika Dosen Mengkritik N=12 (Sampel Sedikit)",
+        "content": [
+          "JANGAN NGEyel! Langsung tundukkan ego.",
+          "Kalimat aman: \"Terima kasih atas masukannya, Bapak/Ibu. Saya sangat sependapat bahwa secara statistik N=12 sangat berisiko. Mohon arahan dan izin dari Bapak/Ibu, saya akan segera merevisi dengan memperluas populasi data menjadi 5 tahun (2019-2023) agar jumlah sampel menjadi 20 triwulan dan memenuhi syarat kelayakan model.\""
+        ]
+      },
+      {
+        "title": "Jika Anda Diberi Pertanyaan yang Benar-benar Tidak Tahu",
+        "content": [
+          "Jangan diam atau mengarang bebas. Dosen tahu jika Anda berbohong.",
+          "Kalimat aman: \"Mohon maaf Bapak/Ibu, untuk konsep (sebutkan yang ditanya) secara spesifik belum saya cantumkan/pelajari dalam draf proposal ini. Namun masukan ini sangat luar biasa, akan saya catat dan masukkan sebagai perbaikan di Bab II pada tahap skripsi nanti.\""
+        ]
+      },
+      {
+        "title": "Body Language (Bahasa Tubuh)",
+        "content": [
+          "Bawa buku catatan dan pulpen. Setiap penguji bicara/kritik, MENULISLAH. Dosen sangat suka mahasiswa yang mencatat omongan mereka.",
+          "Jangan menyela saat dosen belum selesai bicara.",
+          "Tatap mata penguji saat menjawab, jangan melihat ke atas (terlihat sedang mengarang)."
+        ]
+      },
+      {
+        "title": "Mindset Sidang Proposal",
+        "content": [
+          "Tujuan Sempro bukan untuk mencari \"Proposal yang Sempurna\", tetapi mencari tahu apakah \"Mahasiswa ini PAHAM apa yang mau dikerjakannya dan SIAP dibimbing\".",
+          "Jadi, jadilah mahasiswa yang logis, paham teori, namun teachable (mau menerima masukan)."
+        ]
+      }
+    ],
+    "tugas": [
+      "Kuasai isu downtrading.",
+      "Pahami risiko statistik N=12 dan mitigasinya.",
+      "Siapkan argumen proxy data penindakan untuk rokok ilegal."
+    ],
+    "presentasi": [
+      {
+        "slide": "Slide 1",
+        "title": "Judul Penelitian",
+        "points": [
+          "Pengaruh Peredaran Rokok Ilegal dan Penetapan Tarif Cukai Rokok Terhadap Laba Usaha PT. HM Sampoerna Tbk",
+          "Oleh: Farid",
+          "Objek Penelitian: PT HM Sampoerna Tbk (2021-2023 / N=12 triwulan)."
+        ]
+      },
+      {
+        "slide": "Slide 2",
+        "title": "Latar Belakang & Fenomena",
+        "points": [
+          "Fenomena utama yang terjadi di lapangan:",
+          "Fenomena gap-nya sangat jelas. Anda berhasil menampilkan data empiris (grafik jumlah penindakan rokok ilegal, indeks tarif cukai, dan penurunan laba HMSP meski penjualan naik). Alur logika latar belakangnya mengalir dengan baik.",
+          "Alasan pemilihan objek penelitian ini sangat penting dan relevan dengan kondisi saat ini."
+        ]
+      },
+      {
+        "slide": "Slide 3",
+        "title": "Rumusan Masalah & Tujuan",
+        "points": [
+          "Rumusan Masalah:",
+          "Bagaimana pengaruh variabel independen terhadap variabel dependen pada PT HM Sampoerna Tbk (2021-2023 / N=12 triwulan).?",
+          "Tujuan Penelitian:",
+          "Untuk mengetahui dan menganalisis pengaruh tersebut secara empiris."
+        ]
+      },
+      {
+        "slide": "Slide 4",
+        "title": "Tinjauan Pustaka (Grand Theory)",
+        "points": [
+          "Definisi X1: Rokok Ilegal (Diukur dari jumlah batang rokok yang ditindak Bea Cukai dalam Juta batang).",
+          "Definisi X2: Tarif Cukai (Diukur dari Indeks Tarif Cukai).",
+          "Definisi Y: Laba Usaha (EBIT/Operating Profit)."
+        ]
+      },
+      {
+        "slide": "Slide 5",
+        "title": "Metodologi Penelitian",
+        "points": [
+          "Metode Analisis: Regresi Linear Berganda (SPSS), Asumsi Klasik, Uji T (Parsial), Uji F (Simultan).",
+          "Populasi & Sampel: PT HM Sampoerna Tbk (2021-2023 / N=12 triwulan).",
+          "Kelebihan Metode: Operasionalisasi variabel jelas. Penggunaan Operating Profit sangat cerdas dibanding Net Profit karena meniadakan bias pajak dan bunga."
+        ]
+      },
+      {
+        "slide": "Slide 6",
+        "title": "Kesimpulan & Penutup",
+        "points": [
+          "Penelitian ini diharapkan dapat memberikan kontribusi teoritis dan praktis.",
+          "Terima kasih atas perhatian Bapak/Ibu Dosen Penguji.",
+          "Mohon masukan dan arahannya."
+        ]
+      }
+    ],
+    "kamus": [
+      {
+        "term": "Hipotesis",
+        "definition": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "term": "Populasi",
+        "definition": "Keseluruhan subjek penelitian yang memiliki karakteristik tertentu."
+      },
+      {
+        "term": "Sampel",
+        "definition": "Sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "term": "Regresi Linier",
+        "definition": "Metode statistik untuk memodelkan hubungan antara variabel dependen dan independen."
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "f1",
+        "front": "Apa itu Hipotesis?",
+        "back": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "id": "f2",
+        "front": "Apa bedanya Populasi dan Sampel?",
+        "back": "Populasi adalah keseluruhan subjek, sedangkan Sampel adalah sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "id": "f3",
+        "front": "Mengapa menggunakan Regresi Linier?",
+        "back": "Untuk mengetahui seberapa besar pengaruh variabel independen terhadap variabel dependen."
+      }
+    ]
+  },
+  {
+    "id": "hendra",
+    "name": "Hendra",
+    "topic": "Pengaruh Digitalisasi Layanan dan Manajemen Persediaan Terhadap Efisiensi Operasional pada Apotek Lana Raeesa Farma",
+    "analisis": [
+      {
+        "bab": "BAB I: PENDAHULUAN",
+        "kelebihan": "Tabel 1.1 (Data Pra-survei) adalah tameng terkuat Anda. Anda menyajikan gap empiris yang sangat jelas (selisih waktu tunggu, stockout, expired goods). Alur logika dari makro (Society 5.0) ke mikro (Apotek Lana) sangat mulus.",
+        "kelemahan": "Anda menyebutkan \"efisiensi operasional\" yang berbau internal manajemen, tapi pendekatan akhirnya bergeser ke arah \"pelayanan pelanggan\".",
+        "potensiKritik": "Penguji 1 bisa mencecar apakah ini skripsi Manajemen Operasional (SDM/Logistik) atau Manajemen Pemasaran (Kualitas Layanan).",
+        "solusiKritik": "Fokuskan bahwa ini adalah skripsi Manajemen Operasi Jasa (Service Operations Management) di mana efisiensi operasional berdampak langsung pada kualitas layanan pelanggan."
+      },
+      {
+        "bab": "BAB II: TINJAUAN PUSTAKA",
+        "kelebihan": "Pemetaan 30 penelitian terdahulu sangat impresif. Teori yang dipakai (TAM, Lean Management, EOQ, Swiss Cheese Model) sangat relevan dan modern.",
+        "kelemahan": "Terlalu banyak indikator teknis internal (seperti FEFO, Dead Stock) yang nantinya akan berbenturan dengan kuesioner Anda di Bab III.",
+        "potensiKritik": "Dosen teori akan menguji apakah Anda benar-benar paham bedanya FIFO dan FEFO, serta konsep Lean Healthcare.",
+        "solusiKritik": "Pahami dengan baik definisi dan perbedaan FIFO dan FEFO, serta bagaimana konsep Lean Healthcare diterapkan dalam konteks apotek."
+      },
+      {
+        "bab": "BAB III: METODOLOGI PENELITIAN",
+        "kelebihan": "Rumus Lemeshow dieksekusi dengan benar (N=100). Skala Likert dan definisi operasional cukup terstruktur.",
+        "kelemahan": "Responden Anda adalah Pelanggan (Pihak Eksternal), tapi Variabel X2 Anda adalah Manajemen Persediaan (Pihak Internal). Selain itu, Anda berencana mengambil Data Sekunder (data kerugian stok mati, biaya lembur), tapi di bagian Analisis Data (Uji Regresi), Anda HANYA meregresikan data primer (kuesioner).",
+        "potensiKritik": "Penguji 3 akan langsung membantai validitas instrumen Anda karena salah sasaran responden. Logika Dosen: \"Bagaimana mungkin seorang pelanggan/pembeli bisa menilai penerapan metode FEFO atau menilai kontrol dead stock di gudang apotek?\"",
+        "solusiKritik": "Gunakan argumen bahwa yang diukur dari pelanggan BUKAN proses di gudangnya, melainkan OUTPUT/DAMPAK dari manajemen persediaan tersebut yang dirasakan pelanggan (End-User Perception). Data sekunder digunakan sebagai Triangulasi Deskriptif."
+      }
+    ],
+    "titikRawan": [
+      {
+        "title": "Responden Pelanggan vs Variabel Internal (X2)",
+        "attack": "Pelanggan tidak tahu menahu urusan gudang, FEFO, atau stock opname.",
+        "defense": "\"Benar Bapak/Ibu, manajemen persediaan adalah proses internal. Namun, yang saya ukur dari pelanggan BUKAN proses di gudangnya, melainkan OUTPUT/DAMPAK dari manajemen persediaan tersebut yang dirasakan pelanggan (End-User Perception). Misalnya: apakah obat selalu tersedia (availability) dan kemasan tidak rusak. Data internal (sekunder) akan saya gunakan sebagai Triangulasi/Pendukung untuk memvalidasi jawaban pelanggan.\""
+      },
+      {
+        "title": "Variabel Y (Efisiensi) vs Kualitas Layanan",
+        "attack": "Kuesioner Y Anda (Tabel 3.2) lebih mirip mengukur Service Quality atau Kepuasan, bukan Efisiensi Operasional (biaya, input-output).",
+        "defense": "\"Saya menggunakan pendekatan efisiensi dari sudut pandang 'Service Operations Management' (Manajemen Operasi Jasa). Dalam ritel farmasi, memangkas waktu tunggu pelanggan dan menekan error (salah kasih obat) adalah bentuk efisiensi operasional tertinggi (Lean Healthcare). Kepuasan pelanggan adalah hasil akhir dari efisiensi tersebut.\""
+      },
+      {
+        "title": "Teknik Accidental Sampling",
+        "attack": "Dianggap teknik \"paling malas\" dan rentan bias.",
+        "defense": "\"Mengingat populasi apotek bersifat dinamis (fluktuatif) dan apotek tidak memiliki database member tetap, Accidental Sampling yang diiringi dengan Screening ketat (syarat: pernah transaksi & interaksi digital) adalah metode paling logis dan representatif untuk menangkap pengalaman konsumen aktual (real-time).\""
+      }
+    ],
+    "penguji1": {
+      "title": "Penguji 1",
+      "subtitle": "BAB I - Fenomena & Masalah",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Mengapa memilih Apotek Lana Raeesa Farma? Apakah ada keistimewaan?",
+          "answer": "\"Apotek ini adalah representasi ideal dari Apotek Mandiri (UMKM) yang sedang berjuang melawan apotek raksasa (chain pharmacy). Fenomena gap-nya sangat nyata, di mana mereka mulai mengadopsi teknologi, namun efisiensinya belum optimal (terbukti dari antrean 35 menit dan stockout 12%).\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Apakah masalah di apotek ini benar-benar masalah operasional, atau sekadar kurang karyawan?",
+          "answer": "\"Berdasarkan observasi saya, menambah karyawan justru akan menambah Cost tanpa menyelesaikan Root Cause. Masalah utamanya adalah proses manual yang repetitif dan tidak terintegrasi. Digitalisasi dan tata kelola persediaan adalah solusi efisiensi tanpa harus menambah beban fixed cost (gaji).\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Kamu yakin UMKM seperti apotek mandiri ini butuh dan mampu melakukan digitalisasi?",
+          "answer": "\"Sangat mampu, Bapak/Ibu. Digitalisasi yang saya teliti bukanlah robotika atau AI mahal, melainkan adopsi teknologi tepat guna: sistem POS (Point of Sales) terintegrasi dan WhatsApp Business. Ini low-cost tapi high-impact.\""
+        }
+      ]
+    },
+    "penguji2": {
+      "title": "Penguji 2",
+      "subtitle": "BAB II - Teori & Kerangka Pemikiran",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Apa bedanya FIFO dan FEFO dalam manajemen persediaan apotek?",
+          "answer": "\"FIFO (First In First Out) mengeluarkan barang yang pertama masuk. FEFO (First Expired First Out) mengeluarkan barang yang masa kedaluwarsanya paling dekat, terlepas kapan barang itu masuk. Di apotek, FEFO adalah hukum wajib mutlak demi patient safety dan mencegah expired loss.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Jelaskan kaitan teori Lean Management dengan penelitianmu!",
+          "answer": "\"Lean Management bertujuan menghilangkan Muda (pemborosan). Antrean panjang (waiting time), salah resep (defects), dan stok menumpuk (overstock) adalah bentuk pemborosan. Digitalisasi dan Manajemen Persediaan di sini berfungsi sebagai alat Lean untuk memangkas pemborosan tersebut.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Kalau digitalisasi sudah bagus, apa manajemen persediaan masih perlu diteliti? Kan sistem sudah otomatis ngatur stok?",
+          "answer": "\"Tetap mutlak perlu, Pak/Bu. Sistem digital hanya alat pencatat. Jika karyawan malas stock opname atau tidak disiplin menaruh barang sesuai FEFO di rak (Garbage In, Garbage Out), sistem secanggih apapun akan gagal. Teknologi dan disiplin persediaan fisik harus berjalan simultan.\""
+        }
+      ]
+    },
+    "penguji3": {
+      "title": "Penguji 3",
+      "subtitle": "BAB III - Metodologi & Statistik",
+      "qna": [
+        {
+          "level": "Dasar",
+          "question": "Mengapa kamu menetapkan tingkat kesalahan (margin of error) 10% di rumus Lemeshow, bukan 5%?",
+          "answer": "\"Karena populasi pelanggan apotek tidak diketahui secara pasti (infinite) dan heterogen, tingkat kesalahan 10% (0,1) masih ditoleransi dalam riset ilmu sosial dan manajemen untuk mencapai ukuran sampel yang proporsional (N=100) dan fisibel untuk diteliti.\""
+        },
+        {
+          "level": "Menengah",
+          "question": "Kamu mengambil data sekunder (laporan stok mati, biaya operasional). Bagaimana cara memasukkan data itu ke dalam SPSS bersamaan dengan data kuesioner skala Likert?",
+          "answer": "\"(Tersenyum tenang) Data sekunder tersebut TIDAK saya regresi di SPSS bersama skala Likert karena perbedaan satuan pengukurannya. Data sekunder digunakan sebagai Triangulasi Deskriptif di Bab IV nanti untuk memvalidasi dan memperkuat hasil olah data kuesioner persepsi pelanggan.\""
+        },
+        {
+          "level": "Menjebak",
+          "question": "Variabel Y kamu Efisiensi Operasional, tapi yang ngisi kuesioner Pelanggan. Ini tidak valid! Pelanggan kan cuma ngukur Kepuasan (Service Quality).",
+          "answer": "\"Terima kasih, kritik Bapak/Ibu sangat tajam. Pendekatan saya didasarkan pada Service Operations. Saya tidak meminta pelanggan menilai efisiensi finansial apotek, melainkan menilai Indikator Output Efisiensi: yaitu seberapa Cepat (Time Efficiency) dan seberapa Akurat (Error Reduction) pelayanan yang mereka terima. Kepuasan adalah efek dominonya.\""
+        }
+      ]
+    },
+    "ringkasan": {
+      "judul": "Pengaruh Digitalisasi Layanan dan Manajemen Persediaan Terhadap Efisiensi Operasional pada Apotek Lana Raeesa Farma",
+      "objek": "Apotek Lana Raeesa Farma (Pelanggan, N=100).",
+      "definisiX1": "Digitalisasi Layanan (penggunaan sistem POS, integrasi data resep, dan WA Business untuk memangkas lead time).",
+      "definisiX2": "Manajemen Persediaan (menjaga ketersediaan obat tanpa bikin gudang penuh barang expired, Akurasi Stok dan FEFO).",
+      "definisiY": "Efisiensi Operasional (Service Operation: Kerja cepat, tidak ada human error, hemat biaya, pelanggan tidak antre lama).",
+      "metodeAnalisis": "Regresi Linear Berganda (SPSS). Uji Asumsi Klasik (Normalitas, Multikolinearitas, Heteroskedastisitas). Uji T (Satu-satu), Uji F (Sama-sama)."
+    },
+    "simulasi": [
+      {
+        "question": "Jika hasilnya nanti X1 tidak berpengaruh terhadap efisiensi, apakah digitalisasinya gagal?",
+        "answer": "\"Bukan digitalisasinya yang gagal secara konsep, tapi bisa jadi adaptasi penggunanya (karyawan) yang belum maksimal (resistensi teknologi), sehingga fitur canggih tidak dipakai secara optimal.\""
+      },
+      {
+        "question": "Kamu sebut Opportunity Cost, apa itu?",
+        "answer": "\"Biaya/keuntungan yang hilang karena kehilangan kesempatan. Contoh di apotek: Obat habis (stockout), pelanggan batal beli dan pindah ke apotek lain. Keuntungan yang hilang itu adalah opportunity cost.\""
+      },
+      {
+        "question": "Apa bedanya Efisiensi dan Efektivitas?",
+        "answer": "\"Efektivitas itu Do the right things (mencapai target). Efisiensi itu Do things right (mencapai target dengan pengorbanan waktu, biaya, tenaga seminimal mungkin).\""
+      },
+      {
+        "question": "Mengapa kamu tidak pakai kuesioner ke karyawan saja (Internal) untuk mengukur Efisiensi?",
+        "answer": "\"Karena jumlah karyawan Apotek Mandiri biasanya sangat sedikit (di bawah 10 orang), sehingga tidak memenuhi syarat statistik untuk Uji Regresi Linear (butuh min. 30 responden).\""
+      },
+      {
+        "question": "Indikator X2 kamu ada \"Kondisi fisik obat\". Apa urusannya dengan manajemen persediaan?",
+        "answer": "\"Sangat berhubungan. Manajemen penyimpanan yang buruk (suhu salah, tumpukan terlalu tinggi) akan merusak kemasan fisik obat. Konsumen yang menerima obat penyok pasti merasa layanannya tidak efisien dan tidak aman.\""
+      },
+      {
+        "question": "Dalam Kuesioner (Tabel 3.2), apa indikator dari Responsivitas Chat?",
+        "answer": "\"Mengukur seberapa cepat dan tanggap admin membalas pesan pemesanan lewat WA, yang merepresentasikan integrasi customer service digital apotek.\""
+      },
+      {
+        "question": "Kenapa menggunakan Analisis Regresi Linear Berganda?",
+        "answer": "\"Karena saya ingin mengukur besar dan arah PENGARUH dari lebih dari satu variabel independen (X1, X2) terhadap satu variabel dependen (Y) metrik parametrik.\""
+      },
+      {
+        "question": "Kalau disuruh milih, apotek ini lebih butuh Digitalisasi atau Manajemen Persediaan dulu?",
+        "answer": "\"Manajemen Persediaan fisik dulu. Digitalisasi mempercepat aliran informasi, tapi kalau stok fisik berantakan, sistem digital hanya akan 'mempercepat pendistribusian kesalahan'.\""
+      },
+      {
+        "question": "Apa arti R2 (Koefisien Determinasi) nanti di bab 4?",
+        "answer": "\"R2 menunjukkan berapa persentase (kemampuan) variabel Digitalisasi dan Manajemen Persediaan dalam menjelaskan naik turunnya Efisiensi Operasional, sisanya dijelaskan oleh variabel lain di luar penelitian ini.\""
+      },
+      {
+        "question": "Apa manfaat praktis riset ini buat Apotek Lana?",
+        "answer": "\"Sebagai Data-Driven Decision Making. Pemilik apotek tidak lagi menduga-duga. Kalau hasil membuktikan digitalisasi berdampak masif, apotek punya dasar kuat untuk berinvestasi upgrade software kasirnya.\""
+      }
+    ],
+    "strategi": [
+      {
+        "title": "Teknik \"Ego Stroke\" (Memuji Dosen)",
+        "content": [
+          "Jika dosen menemukan kelemahan kuesioner Anda (seperti poin 1 di Analisis Kritis), JANGAN NGEYEL.",
+          "Cara jawab: \"Terima kasih Bapak/Ibu [Sebut Nama Dosen], itu adalah masukan/koreksi yang sangat tajam dan mencerahkan. Saya sangat setuju bahwa pengukuran internal persediaan oleh pihak eksternal (pelanggan) memiliki kelemahan. Atas izin Bapak/Ibu, saya akan memperbaiki butir kuesioner saya agar murni fokus pada Output Layanan Persediaan (Ketersediaan dan Kualitas Kemasan).\""
+        ]
+      },
+      {
+        "title": "Manajemen Bahasa Tubuh",
+        "content": [
+          "Bawa notebook (buku catatan fisik) dan pulpen. Saat dosen mengkritik, MENULISLAH. Dosen merasa sangat dihargai jika mahasiswa mencatat masukannya.",
+          "Jangan pernah memotong omongan dosen, biarkan mereka selesai, ambil napas 2 detik, baru jawab."
+        ]
+      },
+      {
+        "title": "Cara Menjawab Saat Blank (Tidak Tahu)",
+        "content": [
+          "\"Mohon maaf Bapak/Ibu, untuk konsep teori tersebut secara spesifik belum saya perdalam di draf proposal ini. Namun, ini adalah insight yang sangat berharga dan akan segera saya baca dan tambahkan di Bab II pada tahap pengerjaan Skripsi nanti.\" (Lebih baik jujur tapi berjanji memperbaiki, daripada ngarang bebas dan dibantai logika)."
+        ]
+      },
+      {
+        "title": "Siapkan Mental untuk Dosen Metodologi",
+        "content": [
+          "Dosen metodologi tidak peduli apotek Anda seramai apa. Mereka hanya peduli: Apakah alat ukurnya benar? Apakah rumusnya pas? Apakah logikanya nyambung?",
+          "Kuasai bagian Pembenaran Pemilihan Responden Pelanggan (karena karyawan terlalu sedikit untuk diregresi), itu adalah shield terbaik Anda."
+        ]
+      }
+    ],
+    "tugas": [
+      "Kuasai pertahanan di area \"Metodologi & Instrumen Kuesioner\".",
+      "Pahami perbedaan FIFO dan FEFO.",
+      "Siapkan argumen pembenaran pemilihan responden pelanggan untuk mengukur efisiensi operasional."
+    ],
+    "presentasi": [
+      {
+        "slide": "Slide 1",
+        "title": "Judul Penelitian",
+        "points": [
+          "Pengaruh Digitalisasi Layanan dan Manajemen Persediaan Terhadap Efisiensi Operasional pada Apotek Lana Raeesa Farma",
+          "Oleh: Hendra",
+          "Objek Penelitian: Apotek Lana Raeesa Farma (Pelanggan, N=100)."
+        ]
+      },
+      {
+        "slide": "Slide 2",
+        "title": "Latar Belakang & Fenomena",
+        "points": [
+          "Fenomena utama yang terjadi di lapangan:",
+          "Tabel 1.1 (Data Pra-survei) adalah tameng terkuat Anda. Anda menyajikan gap empiris yang sangat jelas (selisih waktu tunggu, stockout, expired goods). Alur logika dari makro (Society 5.0) ke mikro (Apotek Lana) sangat mulus.",
+          "Alasan pemilihan objek penelitian ini sangat penting dan relevan dengan kondisi saat ini."
+        ]
+      },
+      {
+        "slide": "Slide 3",
+        "title": "Rumusan Masalah & Tujuan",
+        "points": [
+          "Rumusan Masalah:",
+          "Bagaimana pengaruh variabel independen terhadap variabel dependen pada Apotek Lana Raeesa Farma (Pelanggan, N=100).?",
+          "Tujuan Penelitian:",
+          "Untuk mengetahui dan menganalisis pengaruh tersebut secara empiris."
+        ]
+      },
+      {
+        "slide": "Slide 4",
+        "title": "Tinjauan Pustaka (Grand Theory)",
+        "points": [
+          "Definisi X1: Digitalisasi Layanan (penggunaan sistem POS, integrasi data resep, dan WA Business untuk memangkas lead time).",
+          "Definisi X2: Manajemen Persediaan (menjaga ketersediaan obat tanpa bikin gudang penuh barang expired, Akurasi Stok dan FEFO).",
+          "Definisi Y: Efisiensi Operasional (Service Operation: Kerja cepat, tidak ada human error, hemat biaya, pelanggan tidak antre lama)."
+        ]
+      },
+      {
+        "slide": "Slide 5",
+        "title": "Metodologi Penelitian",
+        "points": [
+          "Metode Analisis: Regresi Linear Berganda (SPSS). Uji Asumsi Klasik (Normalitas, Multikolinearitas, Heteroskedastisitas). Uji T (Satu-satu), Uji F (Sama-sama).",
+          "Populasi & Sampel: Apotek Lana Raeesa Farma (Pelanggan, N=100).",
+          "Kelebihan Metode: Rumus Lemeshow dieksekusi dengan benar (N=100). Skala Likert dan definisi operasional cukup terstruktur."
+        ]
+      },
+      {
+        "slide": "Slide 6",
+        "title": "Kesimpulan & Penutup",
+        "points": [
+          "Penelitian ini diharapkan dapat memberikan kontribusi teoritis dan praktis.",
+          "Terima kasih atas perhatian Bapak/Ibu Dosen Penguji.",
+          "Mohon masukan dan arahannya."
+        ]
+      }
+    ],
+    "kamus": [
+      {
+        "term": "Hipotesis",
+        "definition": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "term": "Populasi",
+        "definition": "Keseluruhan subjek penelitian yang memiliki karakteristik tertentu."
+      },
+      {
+        "term": "Sampel",
+        "definition": "Sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "term": "Regresi Linier",
+        "definition": "Metode statistik untuk memodelkan hubungan antara variabel dependen dan independen."
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "f1",
+        "front": "Apa itu Hipotesis?",
+        "back": "Dugaan sementara yang harus dibuktikan kebenarannya melalui penelitian."
+      },
+      {
+        "id": "f2",
+        "front": "Apa bedanya Populasi dan Sampel?",
+        "back": "Populasi adalah keseluruhan subjek, sedangkan Sampel adalah sebagian dari populasi yang diambil untuk diteliti."
+      },
+      {
+        "id": "f3",
+        "front": "Mengapa menggunakan Regresi Linier?",
+        "back": "Untuk mengetahui seberapa besar pengaruh variabel independen terhadap variabel dependen."
+      }
+    ]
+  }
+]
